@@ -1,10 +1,10 @@
 <img src="https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell_logo.jpg" title="winterfell" height="15%" width="35%">
 
 # Winterfell-Hunt
-Winterfell-Hunt is a python script to help performing auto hunting looking for malicious activities in windows OS based on collected data by winterfell collection package https://github.com/yasser-alghamdi/winterfell-collection.
+Winterfell-Hunt is a python script to perform auto threat hunting for malicious activities in windows OS based on collected data by winterfell collection package https://github.com/yasser-alghamdi/winterfell-collection.
 
-## Winterfell Package
-Winterfell contains various batch scripts which are `Winterfell-System.bat` `Winterfell-Forensics.bat` `Winterfell-Network.bat` `Winterfell-Registry.bat` `Winterfell-Presistance.bat` `Winterfell-Malware.bat` `Winterfell-Web.bat` `Winterfell-Logs.bat` and `Winterfell-Location.bat`
+## Winterfell-Hunt Capabilities
+Winterfell-Hunt helps to reduce the size of collected data by Winterfell collection package based on performing strings/regex matching of common malciious strings, locations, techniques, etc in order to expidete the time of investigation. it covers the following functions `amcache_hunt` `shellbags_hunt` `prefetch_hunt` `security_logs_hunt` `powershell_logs_hunt` `autoruns_hunt` `schedule_tasks_hunt` `firewall_hunt` `dlls_hunt` `usnjrnl_hunt` `recycle_bin_hunt` `loki_process_hunt` `loki_file_hunt` `URL_history_hunt` `dirlisting_hunt` `iis_logs_hunt` `registry_CURRENT_USER_hunt` and `registry_LOCAL_MACHINE_hunt`
 Most of artifacts are automatically get parsed to ease the investigation by using group of available parsers. In additions, winterfell also collects most of forensics raw data to be processed through any type of fronsics analysis tools such as Magnet Axiom such as `Amcache.hve` `SRUDB.dat` `OBJECTS.DATA` `UsrClass.dat` `NTUSER.DAT` `Windows Logs` `Recent Files` etc.
 
 ```
