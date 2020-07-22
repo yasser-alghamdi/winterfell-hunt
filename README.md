@@ -4,27 +4,108 @@
 Winterfell-Hunt is a python script to perform auto threat hunting for malicious activities in windows OS based on collected data by winterfell collection package https://github.com/yasser-alghamdi/winterfell-collection.
 
 ## Winterfell-Hunt Capabilities
-Winterfell-Hunt helps to reduce the size of collected data by Winterfell collection package based on performing strings/regex matching of common malciious strings, locations, techniques, etc in order to expidete the time of investigation. it covers the following functions `amcache_hunt` `shellbags_hunt` `prefetch_hunt` `security_logs_hunt` `powershell_logs_hunt` `autoruns_hunt` `schedule_tasks_hunt` `firewall_hunt` `dlls_hunt` `usnjrnl_hunt` `recycle_bin_hunt` `loki_process_hunt` `loki_file_hunt` `URL_history_hunt` `dirlisting_hunt` `iis_logs_hunt` `registry_CURRENT_USER_hunt` and `registry_LOCAL_MACHINE_hunt`
+Winterfell-Hunt helps to reduce the size of collected data by Winterfell collection package based on performing strings/regex matching of common malicious strings, locations, techniques, etc in order to expedite the time of investigation. it covers the following functions `amcache_hunt` `shellbags_hunt` `prefetch_hunt` `security_logs_hunt` `powershell_logs_hunt` `autoruns_hunt` `schedule_tasks_hunt` `firewall_hunt` `dlls_hunt` `usnjrnl_hunt` `recycle_bin_hunt` `loki_process_hunt` `loki_file_hunt` `URL_history_hunt` `dirlisting_hunt` `iis_logs_hunt` `registry_CURRENT_USER_hunt` and `registry_LOCAL_MACHINE_hunt`
 
 ## Winterfell-Hunt Usage
-Make sure to keep all scripts, and tools folder under Winterfell folder. you can run the package by execute `All-Winterfell-Scripts.bat` through administrator command prompt `cmd.exe` by nevigate to Winterfell folder. the script has the capability to identify the folder location so you can place the folder anywhere in Windows OS.
+After finishing the usage of winterfell-collection execution, a folder named by the collected machine name will be generated (e.x. DESKTOP-YASSER). Make sure to move that folder to be part of winterfell-hunt folder which contain winhunt.py script to start executing the threat hunting exercise. you can run the script by execute `# winhunt.py {name_of_collected_machine_folder}` through administrator command prompt `cmd.exe`.
 
 ```
-	██╗    ██╗██╗███╗   ██╗████████╗███████╗██████╗ ███████╗███████╗██╗     ██╗     
-	██║    ██║██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██╔════╝██╔════╝██║     ██║     
-	██║ █╗ ██║██║██╔██╗ ██║   ██║   █████╗  ██████╔╝█████╗  █████╗  ██║     ██║     
-	██║███╗██║██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██╔══╝  ██╔══╝  ██║     ██║     
-	╚███╔███╔╝██║██║ ╚████║   ██║   ███████╗██║  ██║██║     ███████╗███████╗███████╗
-	╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚══════╝╚══════╝	
-	"+-------------------------------------------------------------------------+
-	"| Winterfell is a windows batch script to collect windows forensics       |
-	"| data and perform threat hunting for Incident Response Investigation.    |
-	"| Created by yAsSeR Al-Ghamdi.                                            |
-	"+-------------------------------------------------------------------------+
+██╗    ██╗██╗███╗   ██╗████████╗███████╗██████╗ ███████╗███████╗██╗     ██╗     
+██║    ██║██║████╗  ██║╚══██╔══╝██╔════╝██╔══██╗██╔════╝██╔════╝██║     ██║     
+██║ █╗ ██║██║██╔██╗ ██║   ██║   █████╗  ██████╔╝█████╗  █████╗  ██║     ██║     
+██║███╗██║██║██║╚██╗██║   ██║   ██╔══╝  ██╔══██╗██╔══╝  ██╔══╝  ██║     ██║     
+╚███╔███╔╝██║██║ ╚████║   ██║   ███████╗██║  ██║██║     ███████╗███████╗███████╗
+╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚══════╝╚══════╝╚══════╝
+                                                                                  
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗                                            
+██║  ██║██║   ██║████╗  ██║╚══██╔══╝                                            
+███████║██║   ██║██╔██╗ ██║   ██║                                               
+██╔══██║██║   ██║██║╚██╗██║   ██║                                               
+██║  ██║╚██████╔╝██║ ╚████║   ██║
 
-----------------------------------------------------
-Command:
-C:\Users\yasser\Desktop\winterfell-master>All-Winterfell-Scripts.bat
++----------------------------------------------------------------------------------+
+| Description   : Hunt for malicious activities in windows OS based on collected   |
+|                 data by winterfell collection package. refer to :                |
+|                 https://github.com/yasser-alghamdi/winterfell-collection         |
+| Author        : yAsSeR Al-Ghamdi                                                 |
+| Version       : 1.0                                                              |
+| Github        : yasser-alghamdi                                                  |
+| Twitter       : @Yasser_J_Gh                                                     |
++----------------------------------------------------------------------------------+
+
+Command :
+        # winhunt.py {name_of_collected_machine_folder}
+        # winhunt.py DESKTOP-YASSER
+```
+
+at the end, a report of each execution will be generated to present the statstics of the overall findings that need additional attentions and further investigation.
+
+```
+██╗  ██╗██╗   ██╗███╗   ██╗████████╗    ██████╗ ███████╗██████╗  ██████╗ ██████╗ ████████╗
+██║  ██║██║   ██║████╗  ██║╚══██╔══╝    ██╔══██╗██╔════╝██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝
+███████║██║   ██║██╔██╗ ██║   ██║       ██████╔╝█████╗  ██████╔╝██║   ██║██████╔╝   ██║
+██╔══██║██║   ██║██║╚██╗██║   ██║       ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║██╔══██╗   ██║
+██║  ██║╚██████╔╝██║ ╚████║   ██║       ██║  ██║███████╗██║     ╚██████╔╝██║  ██║   ██║
+╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝       ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝                                                                                                                                      
+
+Winterfell hunt has completed. Results statstics are the following:
+------------------------------------
+Total Findings Count:
+600
+------------------------------------
+Amcache Findings Count:
+18
+------------------------------------
+Shellbags Findings Count:
+35
+------------------------------------
+Powershell Findings Count:
+6
+------------------------------------
+Firewall Findings Count:
+3
+------------------------------------
+Dlls Findings Count:
+90
+------------------------------------
+Recycle Bin Findings Count:
+1
+------------------------------------
+Prefetch Findings Count:
+0
+------------------------------------
+Security Logs Findings Count:
+3
+------------------------------------
+Autoruns Findings Count:
+9
+------------------------------------
+Schedule Task Findings Count:
+3
+------------------------------------
+UsnJrnl Findings Count:
+139
+------------------------------------
+Loki ProcessScan Findings Count:
+23
+------------------------------------
+Loki FileScan Findings Count:
+69
+------------------------------------
+IIS Findings Count:
+12
+------------------------------------
+URL History Findings Count:
+1
+------------------------------------
+Dirlisting Findings Count:
+63
+------------------------------------
+LOCAL_MACHINE Registry Findings Count:
+121
+------------------------------------
+CURRENT_USER Registry Findings Count:
+4
 ```
 
 ## Demo of Execution
