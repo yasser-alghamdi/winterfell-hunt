@@ -235,8 +235,7 @@ file:///C:/Users/yasser/Desktop/c2/webshell.aspx,,2/21/2020 8:35:17 AM,1,,,Inter
 ```
 
 
-## References
-
-https://ericzimmerman.github.io/#!index.md
-
-https://www.nirsoft.net/utils/
+## Dependences
+```
+pip install colored
+```
