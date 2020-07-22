@@ -109,10 +109,57 @@ CURRENT_USER Registry Findings Count:
 ```
 
 ## Demo of Execution
-below is to domenstrate a demo of execution of Winterfell package as the following:
+below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
 **Run Winterfell Package**
 ![Run_Winterfell](https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell.gif?raw=true)
+
+**Experinment Statstics
+
+below table to show the reducing size statistics as the following:
+Parser 		         | Befor           | After
+-----------------   | -------------  | --------------
+BrowserHistory      | 
+Srum                | [Saleh Muhaysin](https://github.com/salehmuhaysin/SRUM_parser)
+CSV                 | Custom by Saleh Muhaysin
+Recyclebin          | Custom by Muteb Alqahtani
+Scheduled Tasks     | Custom by Muteb Alqahtani
+Prefetch            | [MBromiley](https://github.com/bromiley/tools/tree/master/win10_prefetch)
+Windows Events      | [dgunter](https://github.com/dgunter/evtxtoelk)
+Amcache	            | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+bits_admin          | [ANSSI](https://github.com/ANSSI-FR/bits_parser)
+Jumplist            | [Bhupendra Singh](https://github.com/Bhupipal/JumpListParser)
+MFT                 | [dkovar](https://github.com/dkovar/analyzeMFT)
+RUA                 | [davidpany](https://github.com/davidpany/WMI_Forensics)
+Shellbags           | [Willi Ballenthin](https://github.com/williballenthin/shellbags)
+Shimcache           | [MANDIANT](https://github.com/mandiant/ShimCacheParser)
+Shortcuts           | [HarmJ0y](https://github.com/HarmJ0y/pylnker)
+UsnJrnl             | [PoorBillionaire](https://github.com/PoorBillionaire/USN-Journal-Parser)
+WMI_Persistence     | [davidpany](https://github.com/davidpany/WMI_Forensics)
+ComputerName        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+DHCP                | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+InstalledApp        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+InstalledComponents | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+LastVisitedMRU      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+LaunchTracing       | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+OpenSaveMRU         | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+ProfileList         | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+ShellExtensions     | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+TimeZoneInformation | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+TypedUrls           | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+Uninstall           | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+UserAssist          | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+WordWheelQuery      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+Bam                 | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+AppCompatFlags      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+MuiCache            | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+RunMRU              | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+Sysinternals        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+TerminalServerClient| [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+
+**Examples of Detected Malicious Activities
+
+below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
 ## References
 
