@@ -48,10 +48,11 @@ at the end, a report of each execution will be generated to present the statstic
 ██║  ██║╚██████╔╝██║ ╚████║   ██║       ██║  ██║███████╗██║     ╚██████╔╝██║  ██║   ██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝       ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝                                                                                                                                      
 
-Winterfell hunt has completed. Results statstics are the following:
+Winterfell hunt has completed. Completed report is loacted at DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
+Results statstics are the following:
 ------------------------------------
 Total Findings Count:
-600
+602
 ------------------------------------
 Amcache Findings Count:
 18
@@ -72,7 +73,7 @@ Recycle Bin Findings Count:
 1
 ------------------------------------
 Prefetch Findings Count:
-0
+2
 ------------------------------------
 Security Logs Findings Count:
 3
@@ -107,6 +108,11 @@ LOCAL_MACHINE Registry Findings Count:
 CURRENT_USER Registry Findings Count:
 4
 ```
+in addition, complete report will be generated contains all finidings loacted in the following PATH \DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
+```
+Winterfell hunt has completed. Completed report is loacted at DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
+Results statstics are the following:
+```
 
 ## Demo of Execution
 below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
@@ -122,22 +128,23 @@ Collected Data 		     | Original File (lines)  | Winterfell-Hunt (lines)
 --------------------   | --------------------   | --------------------
 Amcache                | 441                    | 18
 ShellBags              | 757                    | 35
-Prefetch               | 242                    | 0
-Security_logs          | 236015                 |
+Prefetch               | 242                    | 2
+Security_logs          | 236015                 | 3
 Powershell_logs        | 101649                 | 6
-Autoruns               | 16549                  |
+Autoruns               | 16549                  | 9
 Schedule_task          | 1044                   | 3
-Firewall	             | 9249                   |
-Dlls                   | 46265                  |
-UsnJrnl                | 4732675                |
-Recycle_bin            | 96                     |
-Loki_process           | 302                    |
-Loki_File              | 73                     |
-URL_history            | 58                     |
-Dirlisting             | 568336                 |
-iis_logs               | 110321                 |
-registry_CURRENT_USER  | 32091                  |
-registry_LOCAL_MACHINE | 619013                 |
+Firewall	             | 9249                   | 3
+Dlls                   | 46265                  | 90
+UsnJrnl                | 4732675                | 139
+Recycle_bin            | 96                     | 1
+Loki_process           | 302                    | 23
+Loki_File              | 73                     | 69
+URL_history            | 58                     | 1
+Dirlisting             | 568336                 | 63
+iis_logs               | 110321                 | 12
+registry_CURRENT_USER  | 32091                  | 4
+registry_LOCAL_MACHINE | 619013                 | 121
+Total                  | 6475176                | 602
 
 **Examples of Detected Malicious Activities**
 below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
