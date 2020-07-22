@@ -116,7 +116,7 @@ below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 **Run Winterfell Package**
 ![Run_Winterfell](https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell.gif?raw=true)
 
-**Experinment Statstics**
+**DESKTOP-YASSER POC**
 After executed winterfell-collection package targeting DESKTOP-YASSER machine as part of proof of concept, I have run `winhunt.py` on the collected data to show the value of reducing the size of data and capture most of malicious activities that were injected to the machine as part of sumliation. 
 
 below table to show the reduced size statistics as the following:
