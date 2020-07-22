@@ -1,4 +1,4 @@
-<img src="https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell_logo.jpg" title="winterfell" height="15%" width="35%">
+<img src="https://github.com/yasser-alghamdi/winterfell-hunt/blob/master/winterfell-hunt.png" title="winterfell" height="15%" width="35%">
 
 # Winterfell-Hunt
 Winterfell-Hunt is a python script to perform auto threat hunting for malicious activities in windows OS based on collected data by winterfell collection package https://github.com/yasser-alghamdi/winterfell-collection.
