@@ -38,7 +38,8 @@ Command :
         # winhunt.py DESKTOP-YASSER
 ```
 
-at the end, a report of each execution will be generated to present the statstics of the overall findings that need additional attentions and further investigation.
+at the end, a report of each execution will be generated contains all finidings loacted at the following *PATH \DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt*
+to present the overall findings that need additional attention and further investigation.
 
 ```
 ██╗  ██╗██╗   ██╗███╗   ██╗████████╗    ██████╗ ███████╗██████╗  ██████╗ ██████╗ ████████╗
@@ -48,7 +49,7 @@ at the end, a report of each execution will be generated to present the statstic
 ██║  ██║╚██████╔╝██║ ╚████║   ██║       ██║  ██║███████╗██║     ╚██████╔╝██║  ██║   ██║
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝       ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝                                                                                                                                      
 
-Winterfell hunt has completed. Completed report is loacted at DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
+Winterfell hunt has completed. Full report is loacted at DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
 Results statstics are the following:
 ------------------------------------
 Total Findings Count:
@@ -107,11 +108,6 @@ LOCAL_MACHINE Registry Findings Count:
 ------------------------------------
 CURRENT_USER Registry Findings Count:
 4
-```
-in addition, complete report will be generated contains all finidings loacted in the following PATH \DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
-```
-Winterfell hunt has completed. Completed report is loacted at DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt
-Results statstics are the following:
 ```
 
 ## Demo of Execution
