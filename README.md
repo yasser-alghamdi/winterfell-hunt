@@ -144,7 +144,8 @@ registry_LOCAL_MACHINE | 619013                 | 121
 Total                  | 6475176                | 602
 
 **Examples of Detected Malicious Activities**
-below are samples of detected malicious activities extracted by winterfell-hunt during the execution targeting DESKTOP-YASSER machine:
+
+Below are samples of detected malicious activities extracted by winterfell-hunt during the execution targeting DESKTOP-YASSER machine:
 ```
 [+] Hunting in Amcache File:
 1	0	C:\Users\yasser\Desktop\Tools\5.exe	2019-01-08 04:14:28	NA
