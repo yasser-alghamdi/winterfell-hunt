@@ -116,46 +116,30 @@ below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
 **Experinment Statstics
 
+Winterfell-Hunt helps to reduce the size of collected data by Winterfell collection package based on performing strings/regex matching of common malicious strings, locations, techniques, etc in order to expedite the time of investigation. it covers the following functions `amcache_hunt` `shellbags_hunt` `prefetch_hunt` `security_logs_hunt` `powershell_logs_hunt` `autoruns_hunt` `schedule_tasks_hunt` `firewall_hunt` `dlls_hunt` `usnjrnl_hunt` `recycle_bin_hunt` `loki_process_hunt` `loki_file_hunt` `URL_history_hunt` `dirlisting_hunt` `iis_logs_hunt` `registry_CURRENT_USER_hunt` and `registry_LOCAL_MACHINE_hunt`
+
+
 below table to show the reducing size statistics as the following:
-Parser 		         | Befor           | After
------------------   | -------------  | --------------
-BrowserHistory      | 
-Srum                | [Saleh Muhaysin](https://github.com/salehmuhaysin/SRUM_parser)
-CSV                 | Custom by Saleh Muhaysin
-Recyclebin          | Custom by Muteb Alqahtani
-Scheduled Tasks     | Custom by Muteb Alqahtani
-Prefetch            | [MBromiley](https://github.com/bromiley/tools/tree/master/win10_prefetch)
-Windows Events      | [dgunter](https://github.com/dgunter/evtxtoelk)
-Amcache	            | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-bits_admin          | [ANSSI](https://github.com/ANSSI-FR/bits_parser)
-Jumplist            | [Bhupendra Singh](https://github.com/Bhupipal/JumpListParser)
-MFT                 | [dkovar](https://github.com/dkovar/analyzeMFT)
-RUA                 | [davidpany](https://github.com/davidpany/WMI_Forensics)
-Shellbags           | [Willi Ballenthin](https://github.com/williballenthin/shellbags)
-Shimcache           | [MANDIANT](https://github.com/mandiant/ShimCacheParser)
-Shortcuts           | [HarmJ0y](https://github.com/HarmJ0y/pylnker)
-UsnJrnl             | [PoorBillionaire](https://github.com/PoorBillionaire/USN-Journal-Parser)
-WMI_Persistence     | [davidpany](https://github.com/davidpany/WMI_Forensics)
-ComputerName        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-DHCP                | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-InstalledApp        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-InstalledComponents | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-LastVisitedMRU      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-LaunchTracing       | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-OpenSaveMRU         | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-ProfileList         | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-ShellExtensions     | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-TimeZoneInformation | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-TypedUrls           | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-Uninstall           | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-UserAssist          | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-WordWheelQuery      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-Bam                 | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-AppCompatFlags      | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-MuiCache            | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-RunMRU              | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-Sysinternals        | [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
-TerminalServerClient| [Muteb Alqahtani](https://github.com/muteb/RegSkewer)
+Collected Data 		     | Original File  | Winterfell-Hunt
+--------------------   | -------------  | --------------
+Amcache                | 
+ShellBags              | 
+Prefetch               | 
+Security_logs          | 
+Powershell_logs        | 
+Autoruns               | 
+Schedule_task          | 
+Firewall	             | 
+Dlls                   | 
+UsnJrnl                | 
+Recycle_bin            | 
+Loki_process           | 
+Loki_File              | 
+URL_history            | 
+Dirlisting             | 
+iis_logs               | 
+registry_CURRENT_USER  | 
+registry_LOCAL_MACHINE | 
 
 **Examples of Detected Malicious Activities
 
