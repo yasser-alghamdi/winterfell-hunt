@@ -38,7 +38,7 @@ Command :
         # winhunt.py DESKTOP-YASSER
 ```
 
-at the end, a report of each execution will be generated contains all finidings loacted at the following *PATH \DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt*
+at the end, a report of each execution will be generated contains all finidings loacted at the following PATH *\DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt*
 to present the overall findings that need additional attention and further investigation.
 
 ```
