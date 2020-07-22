@@ -114,35 +114,32 @@ below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 **Run Winterfell Package**
 ![Run_Winterfell](https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell.gif?raw=true)
 
-**Experinment Statstics
+**Experinment Statstics**
+After executed winterfell-collection package targeting DESKTOP-YASSER machine as part of proof of concept, I have run `winhunt.py` on the collected data to show the value of reducing the size of data and capture most of malicious activities that were injected to the machine as part of sumliation. 
 
-Winterfell-Hunt helps to reduce the size of collected data by Winterfell collection package based on performing strings/regex matching of common malicious strings, locations, techniques, etc in order to expedite the time of investigation. it covers the following functions `amcache_hunt` `shellbags_hunt` `prefetch_hunt` `security_logs_hunt` `powershell_logs_hunt` `autoruns_hunt` `schedule_tasks_hunt` `firewall_hunt` `dlls_hunt` `usnjrnl_hunt` `recycle_bin_hunt` `loki_process_hunt` `loki_file_hunt` `URL_history_hunt` `dirlisting_hunt` `iis_logs_hunt` `registry_CURRENT_USER_hunt` and `registry_LOCAL_MACHINE_hunt`
+below table to show the reduced size statistics as the following:
+Collected Data 		     | Original File (lines)  | Winterfell-Hunt (lines)
+--------------------   | --------------------   | --------------------
+Amcache                | 441                    | 18
+ShellBags              | 757                    | 35
+Prefetch               | 242                    | 0
+Security_logs          | 236015                 |
+Powershell_logs        | 101649                 | 6
+Autoruns               | 16549                  |
+Schedule_task          | 1044                   | 3
+Firewall	             | 9249                   |
+Dlls                   | 46265                  |
+UsnJrnl                | 4732675                |
+Recycle_bin            | 96                     |
+Loki_process           | 302                    |
+Loki_File              | 73                     |
+URL_history            | 58                     |
+Dirlisting             | 568336                 |
+iis_logs               | 110321                 |
+registry_CURRENT_USER  | 32091                  |
+registry_LOCAL_MACHINE | 619013                 |
 
-
-below table to show the reducing size statistics as the following:
-Collected Data 		     | Original File  | Winterfell-Hunt
---------------------   | -------------  | --------------
-Amcache                | 
-ShellBags              | 
-Prefetch               | 
-Security_logs          | 
-Powershell_logs        | 
-Autoruns               | 
-Schedule_task          | 
-Firewall	             | 
-Dlls                   | 
-UsnJrnl                | 
-Recycle_bin            | 
-Loki_process           | 
-Loki_File              | 
-URL_history            | 
-Dirlisting             | 
-iis_logs               | 
-registry_CURRENT_USER  | 
-registry_LOCAL_MACHINE | 
-
-**Examples of Detected Malicious Activities
-
+**Examples of Detected Malicious Activities**
 below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
 ## References
