@@ -113,8 +113,8 @@ CURRENT_USER Registry Findings Count:
 ## Demo of Execution
 below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
-**Run Winterfell Package**
-![Run_Winterfell](https://github.com/yasser-alghamdi/winterfell/blob/master/winterfell.gif?raw=true)
+**Run Winterfell-Hunt**
+![Run_Winterfell_Hunt](https://github.com/yasser-alghamdi/winterfell-hunt/blob/master/winterfell-hunt.gif?raw=true)
 
 **DESKTOP-YASSER POC**
 
