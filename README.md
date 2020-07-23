@@ -118,9 +118,9 @@ Below is to domenstrate a demo of execution of Winterfell-Hunt as the following:
 
 **DESKTOP-YASSER POC**
 
-After executed winterfell-collection package targeting DESKTOP-YASSER machine as part of proof of concept, I have run `winhunt.py` on the collected data to show the value of reducing the size of data and capture most of malicious activities that were injected to the machine as part of sumliation. 
+After executed winterfell-collection package targeting DESKTOP-YASSER machine as part of proof of concept, I have run `winhunt.py` on the collected data to show the value of reducing the size of data and capture most of malicious activities that were injected to the machine as part of simulation. 
 
-below table to show the reduced size statistics as the following:
+Below table to show the reduced size statistics as the following:
 Collected Data 		     | Original File (lines)  | Winterfell-Hunt (lines)
 --------------------   | --------------------   | --------------------
 Amcache                | 441                    | 18
