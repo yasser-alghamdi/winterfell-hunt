@@ -39,7 +39,7 @@ Command :
 ```
 
 at the end, a report of each execution will be generated contains all finidings loacted at the following PATH *\DESKTOP-YASSER\Hunting\Winterfell_Hunt_Report.txt*
-to present the overall findings that need additional attention and further investigation.
+to present the overall findings that require additional attention. false positive results are existed so further investigation is needed.
 
 ```
 ██╗  ██╗██╗   ██╗███╗   ██╗████████╗    ██████╗ ███████╗██████╗  ██████╗ ██████╗ ████████╗
